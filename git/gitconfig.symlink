@@ -1,10 +1,10 @@
 [hub]
   protocol = https
 [user]
-	name = Jon Gold
-	email = hello@designedbygold.com
+	name = Will J Haggard
+	email = willjhaggard@gmail.com
   helper = osxkeychain
-	signingkey = C03382FC
+	signingkey = 8512B49296C447D1
 [alias]
   co = checkout
   promote = !$ZSH/bin/git-promote
@@ -25,7 +25,6 @@
   # Show files ignored by git:
   ign = ls-files -o -i --exclude-standard
   ksreview = "!f() { local SHA=${1:-HEAD}; local BRANCH=${2:-master}; if [ $SHA == $BRANCH ]; then SHA=HEAD; fi; git difftool -y -t Kaleidoscope $BRANCH...$SHA; }; f"
-	airbnb = config user.email \"jon.gold@airbnb.com\"
 [color]
   diff = auto
   status = auto
@@ -38,7 +37,7 @@
   whitespace = nowarn
 [github]
   cmd = ksdiff-wrapper git \"$LOCAL\" \"$REMOTE\"
-	user = jongd
+	user = willjh
 [difftool]
   prompt = false
 [diff]
