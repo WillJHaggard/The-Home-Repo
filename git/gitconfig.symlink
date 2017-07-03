@@ -3,8 +3,6 @@
 [user]
 	name = Will J Haggard
 	email = willjhaggard@gmail.com
-  helper = osxkeychain
-	signingkey = 8512B49296C447D1
 [alias]
   co = checkout
   promote = !$ZSH/bin/git-promote
@@ -75,6 +73,6 @@
 [pull]
 	rebase = true
 [commit]
-	gpgsign = true
+	gpgsign = false 
 [gpg]
 	program = gpg2
